@@ -1,4 +1,4 @@
-@import "../../styles/responsive.scss";
+@use "../../styles/responsive.scss" as *;
 
 .topBox {
   h1 {

@@ -1,5 +1,5 @@
 // chartBox.scss
-@import "../../styles/responsive.scss";
+@use "../../styles/responsive.scss" as *;
 
 .chartBox {
   display: flex;
