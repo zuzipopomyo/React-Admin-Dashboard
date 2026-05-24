@@ -33,18 +33,18 @@ export const menu = [
           url: "/products",
           icon: "product.svg",
         },
-        {
-          id: 3,
-          title: "Orders",
-          url: "/orders",
-          icon: "order.svg",
-        },
-        {
-          id: 4,
-          title: "Posts",
-          url: "/posts",
-          icon: "post2.svg",
-        },
+        // {
+        //   id: 3,
+        //   title: "Orders",
+        //   url: "/orders",
+        //   icon: "order.svg",
+        // },
+        // {
+        //   id: 4,
+        //   title: "Posts",
+        //   url: "/posts",
+        //   icon: "post2.svg",
+        // },
       ],
     },
     {

@@ -16,14 +16,17 @@ a {
   font-family: "Inter", sans-serif;
   background-color: $main-bg;
   color: $main-color;
+  min-height: 100vh;
 }
 
 .container {
   display: flex;
+  min-width: 0;
 }
 
 .menuContainer {
   width: 250px;
+  flex-shrink: 0;
   padding: 5px 20px;
   border-right: 2px solid $soft-bg;
 
@@ -34,5 +37,6 @@ a {
 
 .contentContainer {
   padding: 5px 20px;
-  width: 100%;
+  flex: 1;
+  min-width: 0;
 }
